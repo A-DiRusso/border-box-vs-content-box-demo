@@ -1,0 +1,36 @@
+/* CSS */
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.heading {
+    text-align: center;
+}
+.border-box-model {
+    border: 5px solid red;
+    padding: 10px;
+    margin: 10px;
+    background-color: blueviolet;
+    width: 90%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-box-model {
+    border: 5px solid blueviolet;
+    padding: 10px;
+    margin: 10px;
+    background-color: red;
+    width: 90%;
+    height: 200px;
+    box-sizing: content-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
